@@ -129,61 +129,73 @@
           "isShow": "true"
         }
       },
-      "furnitures": [
+      "furnitureList": [
         {
-          "id": 1,
-          "name": "King Bed",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
-          "description": "80x80",
-          "isActive": true
+          "category": "Bedroom",
+          "furnitures": [
+            {
+              "id": 1,
+              "name": "King Bed",
+              "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
+              "description": "80x80"
+            },
+            {
+              "id": 2,
+              "name": "Queen Bed",
+              "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
+              "description": "60x80"
+            }
+          ]
         },
         {
-          "id": 2,
-          "name": "Queen Bed",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
-          "description": "60x80",
-          "isActive": true
+          "category": "Living",
+          "furnitures": [
+            {
+              "id": 3,
+              "name": "Sofa Large",
+              "imagePath": "http://dev-visualizerassets.exitest.com/Color_Sofa_Sectional.svg",
+              "description": "76x80"
+            }
+          ]
         },
         {
-          "id": 3,
-          "name": "Sofa Large",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Sofa_Sectional.svg",
-          "description": "76x80",
-          "isActive": true
+          "category": "Dining",
+          "furnitures": [
+            {
+              "id": 4,
+              "name": "Breakfast Table",
+              "imagePath": "http://dev-visualizerassets.exitest.com/Color_Table_Breakfast.svg",
+              "description": "76x80"
+            }
+          ]
         },
         {
-          "id": 4,
-          "name": "Breakfast Table",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Table_Breakfast.svg",
-          "description": "76x80",
-          "isActive": true
-        },
-        {
-          "id": 5,
-          "name": "Pool Table",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Pool_Table.svg",
-          "description": "76x80",
-          "isActive": true
+          "category": "Accessories",
+          "furnitures": [
+            {
+              "id": 5,
+              "name": "Pool Table",
+              "imagePath": "http://dev-visualizerassets.exitest.com/Color_Pool_Table.svg",
+              "description": "76x80"
+            }
+          ]
         }
       ],
-      "hotspot": [
+      "hotspotList": [
         {
           "id": 1,
-          "hotspotMedia": [
+          "hotspots": [
             {
-              "id": 0,
               "mediaType": "image",
               "name": "Bellissima-Residence-3-03",
               "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
             },
             {
-              "id": 0,
               "mediaType": "image",
               "name": "Bellissima-Residence-3-03",
               "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
             },
             {
-              "id": 0,
               "mediaType": "image",
               "name": "Bellissima-Residence-3-03",
               "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
@@ -192,9 +204,8 @@
         },
         {
           "id": 2,
-          "hotspotMedia": [
+          "hotspots": [
             {
-              "id": 0,
               "mediaType": "image",
               "name": "Bellissima-Residence-3-03",
               "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
@@ -202,21 +213,18 @@
           ]
         }
       ],
-      "galleryMedia": [
+      "galleries": [
         {
-          "id": 1,
           "mediaType": "image",
           "name": "Bellissima-Residence-3-01",
           "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
         },
         {
-          "id": 2,
           "mediaType": "image",
           "name": "Bellissima-Residence-3-02",
           "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
         },
         {
-          "id": 3,
           "mediaType": "image",
           "name": "Bellissima-Residence-3-03",
           "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
